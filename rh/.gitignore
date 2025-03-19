@@ -1,0 +1,45 @@
+# Directorios y archivos generados por IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Archivos de compilación y dependencias
+/out/
+/build/
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Configuración de Gradle y Maven
+.gradle/
+/mvnw
+/mvnw.cmd
+/.mvn/
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+hs_err_pid*
+
+# Configuración de sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del entorno
+.env
+*.properties
+*.yml
+
+# Configuración de IDEs
+.vscode/
+/.idea/
+
+# Archivos de test y cobertura
+/test-output/
+/coverage/
+
+# Librerías externas
+/lib/
