@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navigation from "./common/Navigation";
 import ListEmployees from "./employees/listEmployes";
 import AddEmployee from "./employees/AddEmploye";
+import EditEmploye from "./employees/EditEmploye";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<ListEmployees />} />
           <Route exact path="/addEmployee" element={<AddEmployee />} />
+          <Route exact path="/editEmployee/:id" element={<EditEmploye />} />
         </Routes>
       </BrowserRouter>
     </div>
