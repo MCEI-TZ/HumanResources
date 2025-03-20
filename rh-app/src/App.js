@@ -1,9 +1,13 @@
+import Navigation from "./common/Navigation";
 import ListEmployees from "./employees/listEmployes";
 
 
 function App() {
   return (
-    <ListEmployees/>
+    <div className="container">
+      <Navigation/>
+      <ListEmployees/>
+    </div>
   );
 }
 
